@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/js.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav_container" id="root"></div>
+</body>
+
+<script>
+    function Navbar() {
+    var  navbar = document.createElement('div');
+    navbar.className = 'nav-outer';
+
+    var navitem = document.createElement('a');
+    navitem.href = 'test';
+    navitem.textContent = 'Home';
+    navitem.className = 'nav-item';
+  
+    
+    var navitem2 = document.createElement('a');
+    navitem2.href = 'test';
+    navitem2.textContent = 'About';
+    navitem2.className = 'nav-item';
+
+    var navitem3 = document.createElement('a');
+    navitem3.href='test';
+    navitem3.textContent='Contact';
+    navitem3.className='nav-item'
+
+    var inputElement = document.createElement('input') ;
+    inputElement.type='text';
+    inputElement.name= 'search'
+    inputElement.placeholder='Search here....'
+    inputElement.className='search'
+
+    var Button =document.createElement('button');
+    Button.type='test';
+    Button.textContent='Search';
+    Button.className='search_btn'
+    
+    navbar.appendChild(navitem);
+    navbar.appendChild(navitem2);
+    navbar.appendChild(navitem3);
+    navbar.appendChild(inputElement)
+    navbar.appendChild(Button)
+
+    
+
+    document.getElementById("root").appendChild(navbar)
+    }
+    Navbar()
+</script>
+</html>

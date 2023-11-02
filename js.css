@@ -1,0 +1,41 @@
+.nav-outer {
+    background-color: #333;
+    height: 50px;
+    overflow:hidden;
+    width: 100%;
+  }
+  .nav-item{
+    color: white;
+    text-decoration: none;
+  
+    font-style: initial;
+    font-size: larger;
+    font-family: system-ui;
+    padding-inline: 20px;
+  }
+  .search{
+    padding-left: 10px;
+    height: 30px;
+    margin-left: 400px;
+    width: 800px;
+    margin-top: 5px;
+    border-radius: 16px;
+  }
+  .search_btn{
+    background-color:rgb(172, 24, 24);
+    height:35px ;
+    width: 100px;
+    border-radius: 16px;
+  }
+  .img1{
+    width: 1887px;
+  }
+  .navbar-2{
+    text-align: center;
+    background-color: white;
+    color: rgb(242, 136, 7);
+    height: 100px;
+    padding-top: 25px;
+
+    font-family: fantasy;
+  }
